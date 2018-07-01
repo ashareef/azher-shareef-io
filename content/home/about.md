@@ -2,7 +2,7 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = 2018-07-01T03:53:43Z
+date = 2018-07-01T22:06:50Z
 
 # Order that this section will appear in.
 weight = 5
@@ -11,7 +11,8 @@ weight = 5
 [interests]
   interests = [
     "Microservices",
-    "Cloud"
+    "Cloud",
+    "DevOps"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -22,6 +23,6 @@ weight = 5
  
 +++
 
-# Biography
+# About me
 
-I'm a full stack developer currently working in a Big Five bank in downtown Toronto.  Working on modernizing various legacy credit origination functionality by creating microservices on Cloud Foundry platforms like Pivotal CF and IBM Bluemix.  Currently working with Spring Boot, Spring Cloud Netflix OSS (Config Server, Eureka, Hystrix, Zuul, Ribbon), RabbitMQ, Hashicorp Consul, Hashicorp Vault, OAuth2 and various other open source tools
+I'm a full stack developer currently working at a <a href="https://en.wikipedia.org/wiki/Big_Five_(banks)">Big Five</a> bank in downtown Toronto.  I work on modernizing various legacy credit origination functionality by creating microservices on Cloud Foundry platforms like Pivotal CF and IBM Bluemix.  I'm primarily working with Spring Boot, Spring Cloud (Netflix OSS), HashiCorp Vault, OAuth2 and various other open source tools.  Secondary responsibilities include setting up the CI/CD pipeline using software like Jenkins and other deploy tools.
