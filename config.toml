@@ -158,6 +158,7 @@ defaultContentLanguageInSubdir = false
 
 # Taxonomies.
 [taxonomies]
+  tag = "tags"
   category = "categories"
 
 # Configure the English version of the website.
