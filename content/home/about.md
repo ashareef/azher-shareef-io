@@ -24,4 +24,4 @@ weight = 5
 
 # Biography
 
-I'm a full stack developer currently working in a Big Five bank in downtown Toronto.
+I'm a full stack developer currently working in a Big Five bank in downtown Toronto.  Working on modernizing various legacy credit origination functionality by creating microservices on Cloud Foundry platforms like Pivotal CF and IBM Bluemix.  Currently working with Spring Boot, Spring Cloud Netflix OSS (Config Server, Eureka, Hystrix, Zuul, Ribbon), RabbitMQ, Hashicorp Consul, Hashicorp Vault, OAuth2 and various other open source tools
