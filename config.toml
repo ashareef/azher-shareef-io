@@ -124,9 +124,19 @@ defaultContentLanguageInSubdir = false
     link = "mailto:azher@shareef.io"
 
   [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//linkedin.com/in/azhershareef/"
+
+  [[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/ashareef"
+
+  [[params.social]]
+    icon = "gitlab"
+    icon_pack = "fa"
+    link = "//gitlab.com/azhershareef"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
