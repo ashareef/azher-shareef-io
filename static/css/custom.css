@@ -1,0 +1,5 @@
+.navbar-default .navbar-brand {
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size: 1.2em;
+}
