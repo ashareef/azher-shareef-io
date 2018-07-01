@@ -1,15 +1,8 @@
 # Configuration of Academic
 # Documentation: https://sourcethemes.com/academic/
 
-# The URL of your website.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "https://azher.shareef.io/"
-
-# Title of your site
 title = "azher.shareef.io"
-
-# Your copyright notice - appears in site footer.
-# To display a copyright symbol, type `&copy;`.
 copyright = "&copy; 2018"
 
 theme = "academic"
@@ -19,17 +12,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
 
-# Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
   section = [ "HTML", "RSS" ]
 
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/readfiles/bfconfig/
 [blackfriday]
   hrefTargetBlank = true  # `true` opens external links in a new tab.
   fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
@@ -52,47 +41,15 @@ defaultContentLanguageInSubdir = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "azher@shareef.io"
 
-  # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
-  #   Examples: "3:04 pm" or "15:04"
   time_format = "3:04 PM"
 
-  # Show estimated reading time for posts?
   reading_time = true
 
-  # Highlight.js options
-  #   highlight
-  #     Enable global source code highlighting?  If false, you can
-  #     override it for a particular page in that page's preamble.
-  #
-  #     Example: highlight = true
-  #
-  #   highlight_languages
-  #     Add support for highlighting additional languages. Support for
-  #     languages mentioned here will be included in all pages. You
-  #     can also set this variable for a particular page in that
-  #     page's preamble.
-  #
-  #     Example: highlight_languages = ["go", "lisp", "ocaml"]
-  #
-  #   highlight_style
-  #     Choose a different CSS style for highlighting source
-  #     code. Setting this option in a page's preamble has no
-  #     effect.
-  #
-  #     Example: highlight_style = "github-gist"
-  #
-  #   For the list of supported languages and styles, see:
-  #   https://cdnjs.com/libraries/highlight.js/
-  #
-  #   For more info on the highlighting options, see:
-  #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
   highlight_languages = ["java"]
   highlight_style = "github"
 
-  # Enable native social sharing buttons?
   sharing = true
 
   # Link custom CSS and JS assets
